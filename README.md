@@ -24,6 +24,7 @@ optional arguments:
 check_ldap
 ----------
 
+Runs a simple LDAP query and returns the results and an OK or CRITICAL status.
 ```
 usage: check_ldap.py [-h] -H SERVER -B BASEDN [-K KEY] [-V VALUE] [-U BINDDN]
                      [-P BINDPW] [-p PORT] [--secure]
