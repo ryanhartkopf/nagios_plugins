@@ -45,7 +45,7 @@ except KeyError:
   exit(3)
 
 # Determine the state of the feed
-if title.startswith("Service is operating normally"):
+if title.startswith("Service is operating normally") or '[RESOLVED]' in title:
   status = 0
   msg = "AWS OK: "
 elif (title.startswith("Informational message") or title.startswith("Performance issues") ):
