@@ -21,6 +21,16 @@ optional arguments:
 ```
 
 
+check_aws_iops
+---------------------
+
+Check read/write and IOPS on EC2 volumes.
+```
+Usage:
+  check_aws_iops.py <accesskey> <secretkey> <volume_id> [<aws_region>]
+```
+
+
 check_ldap
 ----------
 
